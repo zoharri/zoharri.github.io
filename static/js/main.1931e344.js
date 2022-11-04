@@ -11853,18 +11853,18 @@
                 sx: {boxShadow: 1}
             })
         }], Is = [{
-            link: "https://scholar.google.co.il/citations?user=9npMV2kAAAAJ&hl=en",
+            link: "https://scholar.google.co.il/citations?hl=en&user=GV8imVUAAAAJ",
             color: "primary",
             icon: "academicons:google-scholar"
         }, {
-            link: "https://github.com/eladrich",
+            link: "https://github.com/zoharri",
             color: "primary",
             icon: "akar-icons:github-fill"
         }, {
-            link: "https://twitter.com/EladRichardson",
+            link: "https://twitter.com/ZoharRimon",
             color: "primary",
             icon: "eva:twitter-fill"
-        }, {link: "https://www.linkedin.com/in/elad-richardson/", color: "primary", icon: "akar-icons:linkedin-fill"}];
+        }, {link: "https://www.linkedin.com/in/zohar-rimon/", color: "primary", icon: "akar-icons:linkedin-fill"}];
 
         function Fs(e) {
             var t = e.publicationsRef, n = e.projectsRef;
@@ -11917,10 +11917,10 @@
                             }), (0, Cr.jsxs)(ai, {
                                 variant: "h6",
                                 sx: {fontWeight: 100, lineHeight: 2},
-                                children: [(0, Cr.jsx)("span", {children: "I am a Computer Vision and Machine Learning Researcher. "}), (0, Cr.jsxs)("span", {children: ["Fell in love with the field in 2014 during my first undergrad project and been enjoying it ever since. In my MSc thesis, I explored the application of Deep Learning to 3D facial reconstruction under the supervision of Prof.", " "]}), (0, Cr.jsx)("a", {
-                                    href: "https://www.cs.technion.ac.il/~ron/index.html",
-                                    children: "Ron Kimmel"
-                                }), (0, Cr.jsx)("span", {children: ". Since then I\u2019ve had the opportunity to work as an applied researcher, and research lead, on many vision projects, from efficient classification and detection to representation learning and image editing. I\u2019m also very enthusiastic about code and believe that it is an essential part of good research."})]
+                                children: [(0, Cr.jsx)("span", {children: "I am a Reinforcement Learning and Computer Vision Researcher. "}), (0, Cr.jsxs)("span", {children: ["Currently doing my MSc under the supervision of", " "]}), (0, Cr.jsx)("a", {
+                                    href: "https://avivt.github.io/avivt/",
+                                    children: "Aviv Tamar"
+                                }), (0, Cr.jsx)("span", {children: ".d"})]
                             })]
                         }), (0, Cr.jsx)(Vi, {
                             item: !0,
@@ -11973,7 +11973,7 @@
                             sx: {mt: 4},
                             children: (0, Cr.jsx)(ai, {
                                 variant: "subtitle2",
-                                children: "Template by Elad Richardson, reuse with \u2764\ufe0f"
+                                children: "Template by Elad Richardson"
                             })
                         })
                     })]
