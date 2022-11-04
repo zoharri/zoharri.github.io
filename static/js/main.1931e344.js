@@ -9238,7 +9238,7 @@
                 children: (0, Cr.jsxs)(Ci, {
                     children: [(0, Cr.jsx)(ai, {
                         variant: "h4",
-                        children: "Elad Richardson"
+                        children: "Zohar Rimon"
                     }), (0, Cr.jsx)(ci, {sx: {flexGrow: 1}}), c && (0, Cr.jsxs)(pi, {
                         direction: "row",
                         alignItems: "center",
@@ -11869,7 +11869,7 @@
         function Fs(e) {
             var t = e.publicationsRef, n = e.projectsRef;
             return (0, Cr.jsx)(ql, {
-                title: "Elad Richardson", children: (0, Cr.jsxs)(Mi, {
+                title: "Zohar Rimon", children: (0, Cr.jsxs)(Mi, {
                     maxWidth: "xl", children: [(0, Cr.jsxs)(Vi, {
                         container: !0,
                         spacing: 3,
@@ -11885,14 +11885,14 @@
                                 children: [(0, Cr.jsx)(ci, {
                                     component: "img",
                                     alt: "bla",
-                                    src: "https://avatars.githubusercontent.com/u/7377266?v=4",
+                                    src: "https://avatars.githubusercontent.com/u/49524373?v=4",
                                     sx: {height: 200, width: 200, borderRadius: "50%"}
                                 }), (0, Cr.jsx)(ai, {
                                     variant: "h5",
-                                    children: "Elad Richardson"
+                                    children: "Zohar Rimon"
                                 }), (0, Cr.jsx)(ai, {
                                     variant: "body1",
-                                    children: "Computer Vision Researcher"
+                                    children: "Reinforcement Learning and Computer Vision Researcher"
                                 }), (0, Cr.jsx)(pi, {
                                     direction: "row",
                                     flexWrap: "wrap",
