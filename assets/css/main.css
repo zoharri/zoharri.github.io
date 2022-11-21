@@ -5858,7 +5858,7 @@ input, select, textarea {
 
 /* Spotlight (style2) */
 
-.spotlight.style10 {
+.spotlight.style7 {
 	padding: 1rem 1rem 1rem 1rem ;
 	-moz-align-items: center;
 	-webkit-align-items: center;
@@ -5881,12 +5881,12 @@ input, select, textarea {
 	text-align: left;
 }
 
-	.spotlight.style10 .content {
+	.spotlight.style7 .content {
 		width: 44.5rem;
 		max-width: 100%;
 	}
 
-	.spotlight.style10 .image {
+	.spotlight.style7 .image {
 		-moz-flex-grow: 0;
 		-webkit-flex-grow: 0;
 		-ms-flex-grow: 0;
@@ -5901,7 +5901,7 @@ input, select, textarea {
 		margin: 0 3rem 0rem 0;
 	}
 
-		.spotlight.style10 .image iframe {
+		.spotlight.style7 .image iframe {
 			-moz-object-fit: cover;
 			-webkit-object-fit: cover;
 			-ms-object-fit: cover;
@@ -5921,7 +5921,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 1680px) {
 
-		.spotlight.style10 {
+		.spotlight.style7 {
 			padding: 5rem 5rem 3rem 5rem ;
 		}
 
@@ -5929,7 +5929,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 1280px) {
 
-		.spotlight.style10 {
+		.spotlight.style7 {
 			padding: 4rem 4rem 2rem 4rem ;
 		}
 
@@ -5937,11 +5937,11 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
-		.spotlight.style10 {
+		.spotlight.style7 {
 			padding: 3.75rem 3rem 1.75rem 3rem ;
 		}
 
-			.spotlight.style10 .image {
+			.spotlight.style7 .image {
 				width: 18.375rem;
 				height: 18.375rem;
 			}
@@ -5950,7 +5950,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
-		.spotlight.style10 {
+		.spotlight.style7 {
 			padding: 2.5rem 2rem 0.5rem 2rem ;
 			-moz-align-items: -moz-flex-start;
 			-webkit-align-items: -webkit-flex-start;
@@ -5958,7 +5958,7 @@ input, select, textarea {
 			align-items: flex-start;
 		}
 
-			.spotlight.style10 .image {
+			.spotlight.style7 .image {
 				width: 15.75rem;
 				height: 15.75rem;
 				margin: 0 2rem 2rem 0;
@@ -5968,7 +5968,7 @@ input, select, textarea {
 
 	@media screen and (orientation: portrait) {
 
-		.spotlight.style10 {
+		.spotlight.style7 {
 			-moz-align-items: center;
 			-webkit-align-items: center;
 			-ms-align-items: center;
@@ -5980,31 +5980,31 @@ input, select, textarea {
 			text-align: center !important;
 		}
 
-			.spotlight.style10 .content {
+			.spotlight.style7 .content {
 				width: 34rem;
 				max-width: 100%;
 			}
 
-			.spotlight.style10 .image {
+			.spotlight.style7 .image {
 				margin-right: 0;
 			}
 
 	}
 
-	.spotlight.style10.orient-left {
+	.spotlight.style7.orient-left {
 		-moz-flex-direction: row;
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
 	}
 
-		.spotlight.style10.orient-left .image {
+		.spotlight.style7.orient-left .image {
 			margin: 0 0 2rem 3.5rem;
 		}
 
 		@media screen and (max-width: 736px) {
 
-			.spotlight.style10.orient-left .image {
+			.spotlight.style7.orient-left .image {
 				margin: 0 0 2rem 2rem;
 			}
 
@@ -6012,35 +6012,35 @@ input, select, textarea {
 
 		@media screen and (orientation: portrait) {
 
-			.spotlight.style10.orient-left {
+			.spotlight.style7.orient-left {
 				-moz-flex-direction: column-reverse;
 				-webkit-flex-direction: column-reverse;
 				-ms-flex-direction: column-reverse;
 				flex-direction: column-reverse;
 			}
 
-				.spotlight.style10.orient-left .image {
+				.spotlight.style7.orient-left .image {
 					margin-left: 0;
 				}
 
 		}
 
-	.spotlight.style10.content-align-center {
+	.spotlight.style7.content-align-center {
 		text-align: center;
 	}
 
-	.spotlight.style10.content-align-right {
+	.spotlight.style7.content-align-right {
 		text-align: right;
 	}
 
-	.spotlight.style10.image-position-left .image img {
+	.spotlight.style7.image-position-left .image img {
 		-moz-object-position: left;
 		-webkit-object-position: left;
 		-ms-object-position: left;
 		object-position: left;
 	}
 
-	.spotlight.style10.image-position-right .image img {
+	.spotlight.style7.image-position-right .image img {
 		-moz-object-position: right;
 		-webkit-object-position: right;
 		-ms-object-position: right;
