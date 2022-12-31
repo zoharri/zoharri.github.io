@@ -17,11 +17,11 @@
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
 
-				<!-- One -->
+				<!-- Profile -->
 					<section class="banner style3 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
 							<h1>Zohar Rimon</h1>
-							<p class="major">Reinforcement learning and computer vision researcher.</p>
+							<p class="major">I'm a reinforcement learning and computer vision researcher at the Technion. My current focus is generalization for decision making, mainly when should we expect generalization and how can we increase generalization capabilities</p>
 							<ul class="icons">
 								<li><a href="https://twitter.com/ZoharRimon" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="https://www.linkedin.com/in/zohar-rimon/" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
@@ -37,15 +37,31 @@
 							<img src="https://avatars.githubusercontent.com/u/49524373?v=4" alt="" />
 						</div>
 					</section>
+				
 
-				<!-- Two -->
+				<!-- NERN -->
+				<section class="spotlight style2 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
+					<div class="content">
+						<h2>NeRN - Learning Neural Representations for Neural Networks</h2>
+						<p>Neural Representations have recently been shown to effectively reconstruct a wide range of signals from 3D meshes and shapes to images and videos. We show that, when adapted correctly, neural representations can be used to directly represent the weights of a pre-trained convolutional neural network, resulting in a Neural Representation for Neural Networks (NeRN). Inspired by coordinate inputs of previous neural representation methods, we assign a coordinate to each convolutional kernel in our network based on its position in the architecture, and optimize a predictor network to map coordinates to their corresponding weights. Similarly to the spatial smoothness of visual scenes, we show that incorporating a smoothness constraint over the original network's weights aids NeRN towards a better reconstruction. In addition, since slight perturbations in pre-trained model weights can result in a considerable accuracy loss, we employ techniques from the field of knowledge distillation to stabilize the learning process. We demonstrate the effectiveness of NeRN in reconstructing widely used architectures on CIFAR-10, CIFAR-100, and ImageNet. Finally, we present two applications using NeRN, demonstrating the capabilities of the learned representations.</p>
+						<ul class="actions fixed">
+							<li><a href="https://arxiv.org/abs/2212.13554" class="button">Paper</a></li>
+							<li><a href="https://github.com/maorash/NeRN" class="button">Code</a></li>
+						</ul>
+					</div>
+					<div class="image">
+						<img src="images/main_nern_figure_cropped.png" alt="" />
+					</div>
+				</section>
+
+				<!-- MetaFiniteTasks -->
 					<section class="spotlight style2 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 						<div class="content">
 							<h2>Meta-RL with Finite Training Tasks - a Density Estimation Approach</h2>
 							<p>In meta reinforcement learning (meta RL), an agent learns from a set of training tasks how to quickly solve a new task, drawn from the same task distribution. The optimal meta RL policy, a.k.a. the Bayes-optimal behavior, is well defined, and guarantees optimal reward in expectation, taken with respect to the task distribution. The question we explore in this work is how many training tasks are required to guarantee approximately optimal behavior with high probability. Recent work provided the first such PAC analysis for a model-free setting, where a history-dependent policy was learned from the training tasks. In this work, we propose a different approach: directly learn the task distribution, using density estimation techniques, and then train a policy on the learned task distribution. We show that our approach leads to bounds that depend on the dimension of the task distribution. In particular, in settings where the task distribution lies in a low-dimensional manifold, we extend our analysis to use dimensionality reduction techniques and account for such structure, obtaining significantly better bounds than previous work, which strictly depend on the number of states and actions. The key of our approach is the regularization implied by the kernel density estimation method. We further demonstrate that this regularization is useful in practice, when `plugged in' the state-of-the-art VariBAD meta RL algorithm.</p>
 							<ul class="actions fixed">
-								<li><a href="#" class="button">Paper</a></li>
-								<li><a href="#" class="button">Code</a></li>
+								<li><a href="https://arxiv.org/abs/2206.10716?context=cs" class="button">Paper</a></li>
+								<li><a href="https://github.com/zoharri/MBRL2" class="button">Code</a></li>
 							</ul>
 						</div>
 						<div class="image">
@@ -53,11 +69,11 @@
 						</div>
 					</section>
 
-				<!-- Three -->
-					<section class="spotlight style7 orient-left content-align-right image-position-center onscroll-image-fade-in">
+				<!-- YouGotMeDancing -->
+					<section class="spotlight style7 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 							<h2>You Got Me Dancing</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+							<p>Motion Transfer, the task of re-enacting the image of a person according to the movement of another, is an active research field in computer vision. While recent methods achieve realistic looking results in controlled scenarios, it is challenging to obtain similar results in the case of complex, crowded, in-the-wild scenes. In this work we tackle this task, while integrating the synthesized person into the real-world target scene. We call this task Scene Aware Motion Transfer (SMT). In order to achieve a robust solution, we introduce a novel workflow that harnesses a set of models, each attaining state-of-the-art results in its respective field. We first construct a novel person tracking workflow to separate each unique identity from the people in the scene. Then we utilize the tracking results for a targeted single-person motion transfer, resulting in a fully automatic workflow that handles complex videos. Extensive evaluation is presented to show the quality and robustness of the results in different scenarios.</p>
 							<ul class="actions stacked">
 								<li><a href="https://sipl.eelabs.technion.ac.il/projects/you-got-me-dancing-scene-aware-motion-transfer-for-multi-view-videos/" class="button">Learn More</a></li>
 							</ul>
