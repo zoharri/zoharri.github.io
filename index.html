@@ -37,7 +37,30 @@
 							<img src="https://avatars.githubusercontent.com/u/49524373?v=4" alt="" />
 						</div>
 					</section>
-				
+
+				<!-- Task-Tokens -->
+				<section class="spotlight style2 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
+					<div class="content">
+						<h2>Task Tokens: A Flexible Approach to Adapting Behavior Foundation Models</h2>
+						<h3>Preprint</h3>
+						<p>We introduce Task Tokens, a method to effectively tailor behavior foundation models (BFMs) to specific tasks while preserving their flexibility.
+							Our approach leverages the transformer architecture of BFMs to learn a new task-specific encoder through reinforcement learning, keeping the original BFM frozen.
+							This allows incorporation of user-defined priors, balancing reward design and prompt engineering.
+							By training a task encoder to map observations to tokens, used as additional BFM inputs, we guide performance improvement while maintaining the model's diverse control characteristics.
+							We demonstrate Task Tokens' efficacy across various tasks, including out-of-distribution scenarios, and show their compatibility with other prompting modalities.
+							Our results suggest that Task Tokens offer a promising approach for adapting BFMs to specific control tasks while retaining their generalization capabilities.
+						</p>
+						<ul class="actions fixed">
+							<li><a href="https://www.arxiv.org/abs/2503.22886" class="button">Paper</a></li>
+							<li><a href="https://github.com/rvainshtein/task-tokens" class="button">Code</a></li>
+							<li><a href="https://sites.google.com/view/mamba-iclr2024" class="button">Website</a></li>
+						</ul>
+					</div>
+					<div class="image">
+						<img src="images/all_tasks_tokens.gif" alt="" />
+					</div>
+				</section>
+
 				<!-- MAMBA -->
 				<section class="spotlight style2 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 					<div class="content">
@@ -58,7 +81,7 @@
 						<ul class="actions fixed">
 							<li><a href="https://arxiv.org/abs/2403.09859" class="button">Paper</a></li>
 							<li><a href="https://github.com/zoharri/mamba" class="button">Code</a></li>
-							<li><a href="https://sites.google.com/view/mamba-iclr2024" class="button">Website</a></li>
+							<li><a href="https://sites.google.com/view/task-tokens" class="button">Website</a></li>
 						</ul>
 					</div>
 					<div class="image">
@@ -100,9 +123,10 @@
 								In settings where the task distribution lies in a low-dimensional manifold, we extend our analysis to use dimensionality reduction techniques, obtaining significantly better bounds than previous work, which strictly depend on the number of states and actions.
 								The key of our approach is the regularization implied by the kernel density estimation method.
 								We further demonstrate that this regularization improves generalization in practice.</p>
-								<li><a href="https://arxiv.org/abs/2206.10716?context=cs" class="button">Paper</a></li>
-								<li><a href="https://github.com/zoharri/MBRL2" class="button">Code</a></li>
-							</ul>
+								<ul class="actions fixed">
+									<li><a href="https://arxiv.org/abs/2206.10716?context=cs" class="button">Paper</a></li>
+									<li><a href="https://github.com/zoharri/MBRL2" class="button">Code</a></li>
+								</ul>
 						</div>
 						<div class="image">
 							<img src="images/metarlfinitehalf.gif" alt="" />
